@@ -13,5 +13,5 @@
   - [x] Implement CSS styling (simple and modern)
   - [x] Add JavaScript functionality
 - [x] Implement multilingual support
-- [ ] Configure Netlify deployment
+- [x] Configure Netlify deployment
 - [ ] Finalize and deploy website
