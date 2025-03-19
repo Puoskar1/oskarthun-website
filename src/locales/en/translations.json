@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "cv": "CV"
+  },
+  "hero": {
+    "title": "Oskar Thun",
+    "subtitle": "Welcome to my personal website"
+  },
+  "about": {
+    "title": "About Me",
+    "content": "I am Oskar Thun, a professional based in Uusikaupunki, Finland."
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "contact": {
+      "title": "Contact Information",
+      "name": "Oskar Thun",
+      "address": "Pirttikari 20, 23500 Uusikaupunki",
+      "email": "contact@oskarthun.xyz"
+    },
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "degree": "Degree Title",
+          "institution": "Institution Name",
+          "period": "20XX - 20XX"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Work Experience",
+      "items": [
+        {
+          "position": "Position Title",
+          "company": "Company Name",
+          "period": "20XX - Present",
+          "description": "Description of responsibilities and achievements."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Skills",
+      "items": [
+        "Skill 1",
+        "Skill 2",
+        "Skill 3"
+      ]
+    }
+  }
+}

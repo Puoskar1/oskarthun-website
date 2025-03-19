@@ -1,0 +1,193 @@
+:root {
+  --primary-color: #3498db;
+  --secondary-color: #2c3e50;
+  --text-color: #333;
+  --light-bg: #f8f9fa;
+  --dark-bg: #343a40;
+  --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--light-bg);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header and Navigation */
+header {
+  background-color: var(--dark-bg);
+  color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 1.5rem;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+.language-selector button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-left: 0.5rem;
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px;
+  transition: background-color 0.3s;
+}
+
+.language-selector button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Main Content */
+main {
+  flex: 1;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about {
+  background-color: white;
+}
+
+.about h2, .cv h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: var(--secondary-color);
+}
+
+/* CV Section */
+.cv {
+  background-color: var(--light-bg);
+}
+
+.cv-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.cv-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cv-section h3 {
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.cv-section h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.cv-section ul {
+  list-style-position: inside;
+  margin-top: 1rem;
+}
+
+.cv-section li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-bg);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .nav-links, .language-selector {
+    margin-top: 1rem;
+  }
+  
+  .nav-links a {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .cv-content {
+    grid-template-columns: 1fr;
+  }
+}

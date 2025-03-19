@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Etusivu",
+    "about": "Tietoa",
+    "cv": "CV"
+  },
+  "hero": {
+    "title": "Oskar Thun",
+    "subtitle": "Tervetuloa kotisivulleni"
+  },
+  "about": {
+    "title": "Tietoa minusta",
+    "content": "Olen Oskar Thun, ammattilainen Uudestakaupungista, Suomesta."
+  },
+  "cv": {
+    "title": "Ansioluettelo",
+    "contact": {
+      "title": "Yhteystiedot",
+      "name": "Oskar Thun",
+      "address": "Pirttikari 20, 23500 Uusikaupunki",
+      "email": "contact@oskarthun.xyz"
+    },
+    "education": {
+      "title": "Koulutus",
+      "items": [
+        {
+          "degree": "Tutkinnon nimi",
+          "institution": "Oppilaitoksen nimi",
+          "period": "20XX - 20XX"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Työkokemus",
+      "items": [
+        {
+          "position": "Tehtävänimike",
+          "company": "Yrityksen nimi",
+          "period": "20XX - Nykyinen",
+          "description": "Kuvaus vastuualueista ja saavutuksista."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Taidot",
+      "items": [
+        "Taito 1",
+        "Taito 2",
+        "Taito 3"
+      ]
+    }
+  }
+}

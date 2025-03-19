@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "home": "Hem",
+    "about": "Om mig",
+    "cv": "CV"
+  },
+  "hero": {
+    "title": "Oskar Thun",
+    "subtitle": "Välkommen till min personliga webbplats"
+  },
+  "about": {
+    "title": "Om mig",
+    "content": "Jag är Oskar Thun, en yrkesverksam baserad i Nystad, Finland."
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "contact": {
+      "title": "Kontaktinformation",
+      "name": "Oskar Thun",
+      "address": "Pirttikari 20, 23500 Uusikaupunki",
+      "email": "contact@oskarthun.xyz"
+    },
+    "education": {
+      "title": "Utbildning",
+      "items": [
+        {
+          "degree": "Examenstitel",
+          "institution": "Läroanstalts namn",
+          "period": "20XX - 20XX"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Arbetslivserfarenhet",
+      "items": [
+        {
+          "position": "Befattningstitel",
+          "company": "Företagsnamn",
+          "period": "20XX - Nuvarande",
+          "description": "Beskrivning av ansvarsområden och prestationer."
+        }
+      ]
+    },
+    "skills": {
+      "title": "Färdigheter",
+      "items": [
+        "Färdighet 1",
+        "Färdighet 2",
+        "Färdighet 3"
+      ]
+    }
+  }
+}
