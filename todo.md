@@ -14,4 +14,4 @@
   - [x] Add JavaScript functionality
 - [x] Implement multilingual support
 - [x] Configure Netlify deployment
-- [ ] Finalize and deploy website
+- [x] Finalize and deploy website
