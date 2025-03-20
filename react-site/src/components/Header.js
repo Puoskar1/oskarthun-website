@@ -43,40 +43,36 @@ const Header = ({ activePage, onNavigate }) => {
           </div>
           <ul>
             <li>
-              <a 
-                href="#"
-                className={activePage === 'home' ? 'active' : ''} 
+              <button 
+                className={`nav-button ${activePage === 'home' ? 'active' : ''}`} 
                 onClick={(e) => handleNavClick(e, 'home')}
               >
                 {t('nav.home')}
-              </a>
+              </button>
             </li>
             <li>
-              <a 
-                href="#" 
-                className={activePage === 'about' ? 'active' : ''} 
+              <button 
+                className={`nav-button ${activePage === 'about' ? 'active' : ''}`} 
                 onClick={(e) => handleNavClick(e, 'about')}
               >
                 {t('nav.about')}
-              </a>
+              </button>
             </li>
             <li>
-              <a 
-                href="#" 
-                className={activePage === 'cv' ? 'active' : ''} 
+              <button 
+                className={`nav-button ${activePage === 'cv' ? 'active' : ''}`} 
                 onClick={(e) => handleNavClick(e, 'cv')}
               >
                 {t('nav.cv')}
-              </a>
+              </button>
             </li>
             <li>
-              <a 
-                href="#" 
-                className={activePage === 'contact' ? 'active' : ''} 
+              <button 
+                className={`nav-button ${activePage === 'contact' ? 'active' : ''}`} 
                 onClick={(e) => handleNavClick(e, 'contact')}
               >
                 {t('nav.contact')}
-              </a>
+              </button>
             </li>
           </ul>
         </nav>
