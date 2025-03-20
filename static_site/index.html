@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oskar Thun</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Oskar Thun</h1>
+      <nav>
+        <div class="language-selector">
+          <button onclick="changeLanguage('en')" class="active" id="en-btn">English</button>
+          <button onclick="changeLanguage('fi')" id="fi-btn">Suomi</button>
+          <button onclick="changeLanguage('sv')" id="sv-btn">Svenska</button>
+        </div>
+        <ul>
+          <li><a href="#home" class="lang" data-en="Home" data-fi="Koti" data-sv="Hem">Home</a></li>
+          <li><a href="#about" class="lang" data-en="About" data-fi="Tietoa" data-sv="Om">About</a></li>
+          <li><a href="#cv" class="lang" data-en="CV" data-fi="CV" data-sv="CV">CV</a></li>
+          <li><a href="#contact" class="lang" data-en="Contact" data-fi="Yhteystiedot" data-sv="Kontakt">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="section">
+      <div class="container">
+        <h2 class="lang" data-en="Welcome to my website" data-fi="Tervetuloa kotisivulleni" data-sv="Välkommen till min webbplats">Welcome to my website</h2>
+        <p class="lang" data-en="I'm Oskar Thun. This is my personal website where you can learn more about me and my work." 
+           data-fi="Olen Oskar Thun. Tämä on henkilökohtainen verkkosivustoni, jossa voit oppia lisää minusta ja työstäni."
+           data-sv="Jag är Oskar Thun. Detta är min personliga webbplats där du kan lära dig mer om mig och mitt arbete.">
+          I'm Oskar Thun. This is my personal website where you can learn more about me and my work.
+        </p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="lang" data-en="About Me" data-fi="Tietoa minusta" data-sv="Om mig">About Me</h2>
+        <p class="lang" data-en="Here you can find information about my background, skills, and interests."
+           data-fi="Täältä löydät tietoa taustastani, taidoistani ja kiinnostuksen kohteistani."
+           data-sv="Här hittar du information om min bakgrund, färdigheter och intressen.">
+          Here you can find information about my background, skills, and interests.
+        </p>
+      </div>
+    </section>
+
+    <section id="cv" class="section">
+      <div class="container">
+        <h2 class="lang" data-en="Curriculum Vitae" data-fi="Ansioluettelo" data-sv="Meritförteckning">Curriculum Vitae</h2>
+        
+        <div class="cv-section">
+          <h3 class="lang" data-en="Personal Information" data-fi="Henkilötiedot" data-sv="Personlig information">Personal Information</h3>
+          <p><strong class="lang" data-en="Name:" data-fi="Nimi:" data-sv="Namn:">Name:</strong> Oskar Thun</p>
+          <p><strong class="lang" data-en="Address:" data-fi="Osoite:" data-sv="Adress:">Address:</strong> Pirttikari 20, 23500 Uusikaupunki</p>
+          <p><strong class="lang" data-en="Email:" data-fi="Sähköposti:" data-sv="E-post:">Email:</strong> oskar@oskarthun.xyz</p>
+        </div>
+        
+        <div class="cv-section">
+          <h3 class="lang" data-en="Education" data-fi="Koulutus" data-sv="Utbildning">Education</h3>
+          <div class="cv-item">
+            <p><strong>2018-2022</strong></p>
+            <p class="lang" data-en="Bachelor's Degree in Computer Science" 
+               data-fi="Kandidaatin tutkinto tietojenkäsittelytieteessä"
+               data-sv="Kandidatexamen i datavetenskap">Bachelor's Degree in Computer Science</p>
+          </div>
+        </div>
+        
+        <div class="cv-section">
+          <h3 class="lang" data-en="Work Experience" data-fi="Työkokemus" data-sv="Arbetslivserfarenhet">Work Experience</h3>
+          <div class="cv-item">
+            <p><strong>2022-Present</strong></p>
+            <p class="lang" data-en="Software Developer" 
+               data-fi="Ohjelmistokehittäjä"
+               data-sv="Programvaruutvecklare">Software Developer</p>
+          </div>
+          <div class="cv-item">
+            <p><strong>2020-2022</strong></p>
+            <p class="lang" data-en="Intern, Web Development" 
+               data-fi="Harjoittelija, Web-kehitys"
+               data-sv="Praktikant, Webbutveckling">Intern, Web Development</p>
+          </div>
+        </div>
+        
+        <div class="cv-section">
+          <h3 class="lang" data-en="Skills" data-fi="Taidot" data-sv="Färdigheter">Skills</h3>
+          <ul>
+            <li class="lang" data-en="JavaScript, HTML, CSS" data-fi="JavaScript, HTML, CSS" data-sv="JavaScript, HTML, CSS">JavaScript, HTML, CSS</li>
+            <li class="lang" data-en="Vue.js, React" data-fi="Vue.js, React" data-sv="Vue.js, React">Vue.js, React</li>
+            <li class="lang" data-en="Node.js, Express" data-fi="Node.js, Express" data-sv="Node.js, Express">Node.js, Express</li>
+            <li class="lang" data-en="Python, Java" data-fi="Python, Java" data-sv="Python, Java">Python, Java</li>
+          </ul>
+        </div>
+        
+        <div class="cv-section">
+          <h3 class="lang" data-en="Languages" data-fi="Kielet" data-sv="Språk">Languages</h3>
+          <ul>
+            <li class="lang" data-en="Finnish (native)" data-fi="Suomi (äidinkieli)" data-sv="Finska (modersmål)">Finnish (native)</li>
+            <li class="lang" data-en="Swedish (fluent)" data-fi="Ruotsi (sujuva)" data-sv="Svenska (flytande)">Swedish (fluent)</li>
+            <li class="lang" data-en="English (fluent)" data-fi="Englanti (sujuva)" data-sv="Engelska (flytande)">English (fluent)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="lang" data-en="Contact Me" data-fi="Ota yhteyttä" data-sv="Kontakta mig">Contact Me</h2>
+        <p class="lang" data-en="Feel free to reach out to me via email at oskar@oskarthun.xyz"
+           data-fi="Voit ottaa minuun yhteyttä sähköpostitse osoitteessa oskar@oskarthun.xyz"
+           data-sv="Kontakta mig gärna via e-post på oskar@oskarthun.xyz">
+          Feel free to reach out to me via email at oskar@oskarthun.xyz
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Oskar Thun</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
