@@ -44,7 +44,7 @@ const Header = ({ activePage, onNavigate }) => {
           <ul>
             <li>
               <a 
-                href="#home" 
+                href="#"
                 className={activePage === 'home' ? 'active' : ''} 
                 onClick={(e) => handleNavClick(e, 'home')}
               >
@@ -53,7 +53,7 @@ const Header = ({ activePage, onNavigate }) => {
             </li>
             <li>
               <a 
-                href="#about" 
+                href="#" 
                 className={activePage === 'about' ? 'active' : ''} 
                 onClick={(e) => handleNavClick(e, 'about')}
               >
@@ -62,7 +62,7 @@ const Header = ({ activePage, onNavigate }) => {
             </li>
             <li>
               <a 
-                href="#cv" 
+                href="#" 
                 className={activePage === 'cv' ? 'active' : ''} 
                 onClick={(e) => handleNavClick(e, 'cv')}
               >
@@ -71,7 +71,7 @@ const Header = ({ activePage, onNavigate }) => {
             </li>
             <li>
               <a 
-                href="#contact" 
+                href="#" 
                 className={activePage === 'contact' ? 'active' : ''} 
                 onClick={(e) => handleNavClick(e, 'contact')}
               >
