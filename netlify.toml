@@ -1,5 +1,5 @@
 [build]
-  base = "react_site"
+  base = "react-site"
   publish = "."
   command = ""
 
