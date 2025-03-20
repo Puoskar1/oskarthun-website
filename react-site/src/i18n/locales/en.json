@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "cv": "CV",
+    "contact": "Contact"
+  },
+  "home": {
+    "welcome": "Welcome to my website",
+    "intro": "I'm Oskar Thun. This is my personal website where you can learn more about me and my work."
+  },
+  "about": {
+    "title": "About Me",
+    "content": "Here you can find information about my background, skills, and interests."
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "personal": {
+      "title": "Personal Information",
+      "name": "Name",
+      "address": "Address",
+      "email": "Email"
+    },
+    "education": {
+      "title": "Education",
+      "degree": "Bachelor's Degree in Computer Science"
+    },
+    "experience": {
+      "title": "Work Experience",
+      "job1": "Software Developer",
+      "job2": "Intern, Web Development"
+    },
+    "skills": {
+      "title": "Skills",
+      "skill1": "JavaScript, HTML, CSS",
+      "skill2": "Vue.js, React",
+      "skill3": "Node.js, Express",
+      "skill4": "Python, Java"
+    },
+    "languages": {
+      "title": "Languages",
+      "lang1": "Finnish (native)",
+      "lang2": "Swedish (fluent)",
+      "lang3": "English (fluent)"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "content": "Feel free to reach out to me via email at oskar@oskarthun.xyz"
+  },
+  "footer": {
+    "copyright": "© 2025 Oskar Thun"
+  }
+}

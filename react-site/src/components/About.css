@@ -1,0 +1,16 @@
+#about {
+  background-color: #ffffff;
+  padding: 5rem 0;
+}
+
+#about h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+
+#about p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  line-height: 1.7;
+}

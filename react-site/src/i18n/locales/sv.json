@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Hem",
+    "about": "Om",
+    "cv": "CV",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "welcome": "Välkommen till min webbplats",
+    "intro": "Jag är Oskar Thun. Detta är min personliga webbplats där du kan lära dig mer om mig och mitt arbete."
+  },
+  "about": {
+    "title": "Om mig",
+    "content": "Här hittar du information om min bakgrund, färdigheter och intressen."
+  },
+  "cv": {
+    "title": "Meritförteckning",
+    "personal": {
+      "title": "Personlig information",
+      "name": "Namn",
+      "address": "Adress",
+      "email": "E-post"
+    },
+    "education": {
+      "title": "Utbildning",
+      "degree": "Kandidatexamen i datavetenskap"
+    },
+    "experience": {
+      "title": "Arbetslivserfarenhet",
+      "job1": "Programvaruutvecklare",
+      "job2": "Praktikant, Webbutveckling"
+    },
+    "skills": {
+      "title": "Färdigheter",
+      "skill1": "JavaScript, HTML, CSS",
+      "skill2": "Vue.js, React",
+      "skill3": "Node.js, Express",
+      "skill4": "Python, Java"
+    },
+    "languages": {
+      "title": "Språk",
+      "lang1": "Finska (modersmål)",
+      "lang2": "Svenska (flytande)",
+      "lang3": "Engelska (flytande)"
+    }
+  },
+  "contact": {
+    "title": "Kontakta mig",
+    "content": "Kontakta mig gärna via e-post på oskar@oskarthun.xyz"
+  },
+  "footer": {
+    "copyright": "© 2025 Oskar Thun"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "nav": {
+    "home": "Koti",
+    "about": "Tietoa",
+    "cv": "CV",
+    "contact": "Yhteystiedot"
+  },
+  "home": {
+    "welcome": "Tervetuloa kotisivulleni",
+    "intro": "Olen Oskar Thun. Tämä on henkilökohtainen verkkosivustoni, jossa voit oppia lisää minusta ja työstäni."
+  },
+  "about": {
+    "title": "Tietoa minusta",
+    "content": "Täältä löydät tietoa taustastani, taidoistani ja kiinnostuksen kohteistani."
+  },
+  "cv": {
+    "title": "Ansioluettelo",
+    "personal": {
+      "title": "Henkilötiedot",
+      "name": "Nimi",
+      "address": "Osoite",
+      "email": "Sähköposti"
+    },
+    "education": {
+      "title": "Koulutus",
+      "degree": "Kandidaatin tutkinto tietojenkäsittelytieteessä"
+    },
+    "experience": {
+      "title": "Työkokemus",
+      "job1": "Ohjelmistokehittäjä",
+      "job2": "Harjoittelija, Web-kehitys"
+    },
+    "skills": {
+      "title": "Taidot",
+      "skill1": "JavaScript, HTML, CSS",
+      "skill2": "Vue.js, React",
+      "skill3": "Node.js, Express",
+      "skill4": "Python, Java"
+    },
+    "languages": {
+      "title": "Kielet",
+      "lang1": "Suomi (äidinkieli)",
+      "lang2": "Ruotsi (sujuva)",
+      "lang3": "Englanti (sujuva)"
+    }
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "content": "Voit ottaa minuun yhteyttä sähköpostitse osoitteessa oskar@oskarthun.xyz"
+  },
+  "footer": {
+    "copyright": "© 2025 Oskar Thun"
+  }
+}
