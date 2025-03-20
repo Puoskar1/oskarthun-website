@@ -1,8 +1,9 @@
-module.exports = {
-  siteId: "manus-test",
-  build: {
-    base: "react-site",
-    publish: "build",
-    command: "npm run build"
-  }
-}
+[build]
+  base = "static_site"
+  publish = "."
+  command = ""
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
