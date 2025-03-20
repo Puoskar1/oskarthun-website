@@ -52,15 +52,31 @@ main {
 
 .section {
   padding: 4rem 0;
+}
+
+/* Page section styling */
+.page-section {
   min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-/* Ensure each page takes up full viewport height */
-main > div {
-  min-height: 100vh;
+/* Active and inactive page states */
+.page-section.active {
+  opacity: 1;
+  transform: translateY(0);
+  z-index: 10;
+  position: relative;
+}
+
+.page-section.inactive {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
+  pointer-events: none;
 }
 
 @media (max-width: 768px) {
