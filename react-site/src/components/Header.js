@@ -2,11 +2,18 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './Header.css';
 
-const Header = () => {
+const Header = ({ activePage, onNavigate }) => {
   const { t, i18n } = useTranslation();
   
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
+  };
+  
+  const handleNavClick = (e, page) => {
+    e.preventDefault();
+    if (onNavigate) {
+      onNavigate(page);
+    }
   };
   
   return (
@@ -35,10 +42,42 @@ const Header = () => {
             </button>
           </div>
           <ul>
-            <li><a href="#home">{t('nav.home')}</a></li>
-            <li><a href="#about">{t('nav.about')}</a></li>
-            <li><a href="#cv">{t('nav.cv')}</a></li>
-            <li><a href="#contact">{t('nav.contact')}</a></li>
+            <li>
+              <a 
+                href="#home" 
+                className={activePage === 'home' ? 'active' : ''} 
+                onClick={(e) => handleNavClick(e, 'home')}
+              >
+                {t('nav.home')}
+              </a>
+            </li>
+            <li>
+              <a 
+                href="#about" 
+                className={activePage === 'about' ? 'active' : ''} 
+                onClick={(e) => handleNavClick(e, 'about')}
+              >
+                {t('nav.about')}
+              </a>
+            </li>
+            <li>
+              <a 
+                href="#cv" 
+                className={activePage === 'cv' ? 'active' : ''} 
+                onClick={(e) => handleNavClick(e, 'cv')}
+              >
+                {t('nav.cv')}
+              </a>
+            </li>
+            <li>
+              <a 
+                href="#contact" 
+                className={activePage === 'contact' ? 'active' : ''} 
+                onClick={(e) => handleNavClick(e, 'contact')}
+              >
+                {t('nav.contact')}
+              </a>
+            </li>
           </ul>
         </nav>
       </div>

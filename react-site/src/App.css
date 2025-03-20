@@ -9,6 +9,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #f8f9fa;
+  overflow-x: hidden;
 }
 
 .container {
@@ -23,6 +24,13 @@ body {
   flex-direction: column;
   min-height: 100vh;
   position: relative;
+}
+
+/* Content wrapper to ensure footer stays at bottom */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Fade to white effect overlay */
@@ -60,15 +68,16 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.5s ease, transform 0.5s ease;
+  transition: opacity 0.5s ease;
+  position: relative;
+  padding: 80px 0; /* Add padding to account for header */
 }
 
 /* Active and inactive page states */
 .page-section.active {
   opacity: 1;
-  transform: translateY(0);
   z-index: 10;
-  position: relative;
+  display: block;
 }
 
 .page-section.inactive {
@@ -77,10 +86,34 @@ main {
   overflow: hidden;
   position: absolute;
   pointer-events: none;
+  display: none;
+}
+
+/* Header styling */
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+  width: 100%;
+  background-color: #f1f1f1;
+  padding: 20px 0;
+  margin-top: auto; /* Push footer to bottom */
 }
 
 @media (max-width: 768px) {
   .section {
     padding: 3rem 0;
+  }
+  
+  .page-section {
+    padding: 60px 0;
   }
 }
